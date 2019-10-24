@@ -1,0 +1,200 @@
+@charset "utf-8";
+/* CSS Document */
+
+<style type="text/css">
+
+#tabs {
+	float:left;
+	width:100%;
+	font-size:93%;
+	line-height:normal;
+	border-bottom:1px solid #666;
+	margin-bottom:1em; /*margin between menu and rest of page*/
+	overflow:hidden;
+	}
+
+#tabs ul {
+	margin:0;
+	padding:10px 10px 0 0px;
+	list-style:none;
+	
+	}
+
+#tabs li {
+	display:inline;
+	margin:0;
+	padding:0;
+	}
+
+#tabs a {
+	float:left;
+	background:url("img/left.png") no-repeat left top;
+	margin:0;
+	padding:0 0 0 6px;
+	text-decoration:none;
+	}
+
+#tabs a span {
+	float:left;
+	display:block;
+	background:url("img/right.png") no-repeat right top;
+	padding:6px 15px 4px 6px;
+	margin-right:2px;
+	color:#FFF;
+	}
+
+/* Commented Backslash Hack hides rule from IE5-Mac \*/
+#tabs a span {float:none;}
+
+/* End IE5-Mac hack */
+#tabs a:hover span {
+	}
+
+#tabs a:hover {
+	background-position:0% -42px;
+	}
+
+#tabs a:hover span {
+	background-position:100% -42px;
+	}
+	
+body,td,th {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size:11px;
+	font-weight:normal;
+	color:#000000;
+}
+
+.tablaMetricas {
+	margin:10px;padding:0px;
+	width:1090px;
+	border:1px solid #000000;
+	
+	-moz-border-radius-bottomleft:6px;
+	-webkit-border-bottom-left-radius:6px;
+	border-bottom-left-radius:6px;
+	
+	-moz-border-radius-bottomright:6px;
+	-webkit-border-bottom-right-radius:6px;
+	border-bottom-right-radius:6px;
+	
+	-moz-border-radius-topright:6px;
+	-webkit-border-top-right-radius:6px;
+	border-top-right-radius:6px;
+	
+	-moz-border-radius-topleft:6px;
+	-webkit-border-top-left-radius:6px;
+	border-top-left-radius:6px;
+}.tablaMetricas table{
+    border-collapse: collapse;
+        border-spacing: 0;
+	width:100%;
+	height:100%;
+	margin:0px;padding:0px;
+}.tablaMetricas tr:last-child td:last-child {
+	-moz-border-radius-bottomright:6px;
+	-webkit-border-bottom-right-radius:6px;
+	border-bottom-right-radius:6px;
+}
+.tablaMetricas table tr:first-child td:first-child {
+	-moz-border-radius-topleft:6px;
+	-webkit-border-top-left-radius:6px;
+	border-top-left-radius:6px;
+}
+.tablaMetricas table tr:first-child td:last-child {
+	-moz-border-radius-topright:6px;
+	-webkit-border-top-right-radius:6px;
+	border-top-right-radius:6px;
+}.tablaMetricas tr:last-child td:first-child{
+	-moz-border-radius-bottomleft:6px;
+	-webkit-border-bottom-left-radius:6px;
+	border-bottom-left-radius:6px;
+}.tablaMetricas tr:hover td{
+	
+}
+.tablaMetricas tr:nth-child(odd){ background-color:#0CC; }
+.tablaMetricas tr:nth-child(even)    { background-color:#ffffff; }.tablaMetricas td{
+	vertical-align:middle;
+	
+	
+	border:1px solid #000000;
+	border-width:0px 1px 1px 0px;
+	text-align:left;
+	padding:4px;
+	font-size:11px;
+	font-family:Verdana;
+	font-weight:normal;
+	color:#000000;
+}.tablaMetricas tr:last-child td{
+	border-width:0px 1px 0px 0px;
+}.tablaMetricas tr td:last-child{
+	border-width:0px 0px 1px 0px;
+}.tablaMetricas tr:last-child td:last-child{
+	border-width:0px 0px 0px 0px;
+}
+.tablaMetricas tr:first-child td{
+		background:-o-linear-gradient(bottom, #005fbf 5%, #003f7f 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #005fbf), color-stop(1, #003f7f) );
+	background:-moz-linear-gradient( center top, #005fbf 5%, #003f7f 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#005fbf", endColorstr="#003f7f");	background: -o-linear-gradient(top,#005fbf,003f7f);
+
+	background-color:#005fbf;
+	border:0px solid #000000;
+	text-align:center;
+	border-width:0px 0px 1px 1px;
+	font-size:14px;
+	font-family:Verdana;
+	font-weight:normal;
+	color:#ffffff;
+}
+.tablaMetricas tr:first-child:hover td{
+	background:-o-linear-gradient(bottom, #005fbf 5%, #003f7f 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #005fbf), color-stop(1, #003f7f) );
+	background:-moz-linear-gradient( center top, #005fbf 5%, #003f7f 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#005fbf", endColorstr="#003f7f");	background: -o-linear-gradient(top,#005fbf,003f7f);
+
+	background-color:#005fbf;
+}
+.tablaMetricas tr:first-child td:first-child{
+	border-width:0px 0px 1px 0px;
+}
+.tablaMetricas tr:first-child td:last-child{
+	border-width:0px 0px 1px 1px;
+}
+
+.titulo {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:14px;
+	font-style:normal;
+	margin: 0 auto;
+	position:relative;
+	width:auto;
+}
+
+.titulo2 {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:14px;
+	font-style:normal;
+	color:#F00;
+	margin: 0 auto;
+	position:relative;
+	width:auto;
+}
+#contenedor {
+	height:auto;
+	width:1200px;
+	position:absolute;
+	top:0px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:13px;
+	font-style:normal;
+}
+
+.cuadroInfo{
+box-shadow: 7px 7px 8px #818181;
+-webkit-box-shadow: 7px 7px 8px #818181;
+-moz-box-shadow: 7px 7px 8px #818181;
+filter: progid:DXImageTransform.Microsoft.dropShadow(color=#818181, offX=7, offY=7, positive=true);
+}
+
+
+
+</style>
